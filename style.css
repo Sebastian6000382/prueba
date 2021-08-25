@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  backgound: #ddd;
+}
+.contenedor{
+  display: flex;
+  justify-content:center;
+}
+
+.caja{
+  margin:150px 15px;
+  width: 150px;
+  height:150px;
+  background: crimson;
+  color: #fff;
+  font-size:40px;
+  text-align: center;
+  line-height:150px;
+  transition: all 1s;
+}
+.caja:nth-child(1){
+  background:purple;
+ 
+    
+}
+
+.caja:nth-child(1):hover {
+  transform: translate(50px,50px)
+}
+.caja:nth-child(2){
+  background:green;
+  
+    
+}
+
+.caja:nth-child(2):hover {
+  transform: rotate(50deg)
+}
+.caja:nth-child(3){
+  background:blue;
+  
+    
+}
+
+.caja:nth-child(3):hover {
+  transform: scale(2,2)
+}
+.caja:nth-child(4){
+  background:crimson;
+  
+    
+}
+
+.caja:nth-child(4):hover {
+  transform: skew(50deg)
+}
