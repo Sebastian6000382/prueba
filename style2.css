@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  backgound: #ddd;
+}
+.contenedor{
+  display: flex;
+  justify-content:center;
+}
+
+.caja{
+  margin:100px 15px;
+  width: 150px;
+  height:150px;
+  background: crimson;
+  color: #fff;
+  font-size:40px;
+  text-align: center;
+  line-height:150px;
+  transition: all 1s;
+}
+.rombo{
+    margin:150px 15px;
+    font-size:25px;
+    text-align: center;
+    line-height:100px;
+    width: 250px;
+    height: 0px;
+    color: #fff;
+    border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
+    border-bottom: 100px solid #428bca;
+    transition: all 1s;
+}
+.triangulo{
+     margin:50px 1px;
+     font-size:25px;
+     text-align: center;
+     line-height:90px;
+     width: 0;
+     height: 0;
+     color: #fff;
+     border-right: 100px solid transparent;
+     border-top: 100px solid transparent;
+     border-left: 100px solid transparent;
+     border-bottom: 100px solid #f0ad4e;
+     transition: all 1s;
+}
+.circulo{
+     margin:150px 1px;
+     font-size:25px;
+     text-align: center;
+     color: #fff;
+     line-height:90px;
+     width: 100px;
+     height: 100px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #5cb85c;
+     transition: all 1s;
+}
+.rombo:nth-child(1){
+
+}
+
+.rombo:nth-child(1):hover {
+  transform: translate(50px,-100px)
+}
+.triangulo:nth-child(2){
+
+}
+
+.triangulo:nth-child(2):hover {
+  transform: rotate(2.5turn)
+}
+.circulo:nth-child(3){
+  background:green;
+}
+
+.circulo:nth-child(3):hover {
+  transform: scale(5,2)
+}
+.caja:nth-child(4){
+  background:crimson;
+}
+
+.caja:nth-child(4):hover {
+  transform: skew(50deg)
+}
